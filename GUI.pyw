@@ -53,7 +53,7 @@ def createNewWindow():
     boton2 = Button(xFrame, text = "Fresas", width = 10, height = 2, command = lambda:combine_funcs("fresa"))
     boton2 .grid(row = 2, column = 2)
     
-    boton3 = Button(xFrame, text = "Huevos", width = 10, height = 2, command = lambda:combine_funcs("huevo"))
+    boton3 = Button(xFrame, text = "Huevos", width = 10, height = 2, command = lambda:combine_funcs("huevos"))
     boton3.grid(row = 2, column = 3)
     
     boton4 = Button(xFrame, text = "Leche", width = 10, height = 2, command = lambda:combine_funcs("leche"))
