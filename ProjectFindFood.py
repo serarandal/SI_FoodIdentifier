@@ -31,5 +31,5 @@ def comparePicture(x,nombre):
 
 def guardarDatos(fecha,nombre):
     archivo = open('D:/APUNTES/Python/lista.txt',"a")
-    textoAGuardar = fecha.strftime("%d/%m/%Y,%H:%M") + "_" + nombre + " "
+    textoAGuardar = fecha.strftime("%d/%m/%Y,%H:%M") + " " + nombre + '\n'
     archivo.write(textoAGuardar)
